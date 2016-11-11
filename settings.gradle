@@ -1,1 +1,1 @@
-include ':app', ':metadatavideo'
+include ':app', ':metadatavideo', ':metadataphoto'

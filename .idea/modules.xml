@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MetadataInjectorTest.iml" filepath="$PROJECT_DIR$/MetadataInjectorTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/metadataphoto/metadataphoto.iml" filepath="$PROJECT_DIR$/metadataphoto/metadataphoto.iml" />
       <module fileurl="file://$PROJECT_DIR$/metadatavideo/metadatavideo.iml" filepath="$PROJECT_DIR$/metadatavideo/metadatavideo.iml" />
     </modules>
   </component>
