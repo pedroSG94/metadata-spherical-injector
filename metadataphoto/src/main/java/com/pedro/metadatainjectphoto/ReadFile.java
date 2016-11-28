@@ -1,6 +1,6 @@
 package com.pedro.metadatainjectphoto;
 
-import android.app.Activity;
+import android.content.Context;
 import android.os.Environment;
 import java.io.File;
 import java.io.FileOutputStream;
@@ -14,17 +14,17 @@ import org.apache.commons.io.IOUtils;
  */
 public class ReadFile {
 
-  private Activity activity;
+  private Context context;
 
-  public ReadFile(Activity activity) {
-    this.activity = activity;
+  public ReadFile(Context context) {
+    this.context = context;
   }
 
-  /**set name without extension*/
+  /** set name without extension */
   public File getRawFile(String name) throws IOException {
-    InputStream ins = activity.getResources().openRawResource(
-        activity.getResources().getIdentifier(name,
-            "raw", activity.getPackageName()));
+    InputStream ins = context.getResources()
+        .openRawResource(
+            context.getResources().getIdentifier(name, "raw", context.getPackageName()));
     File file = new File(Environment.getExternalStorageDirectory(), "temp.jpg");
     OutputStream os = new FileOutputStream(file);
     IOUtils.copy(ins, os);

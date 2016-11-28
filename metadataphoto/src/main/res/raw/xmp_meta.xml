@@ -1,0 +1,17 @@
+<x:xmpmeta xmlns:x="adobe:ns:meta/" xmptk="pedroSG94">
+  <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <rdf:Description xmlns:GPano="http://ns.google.com/photos/1.0/panorama/" rdf:about="">
+      <GPano:ProjectionType>equirectangular</GPano:ProjectionType>
+      <GPano:UsePanoramaViewer>True</GPano:UsePanoramaViewer>
+      <GPano:CroppedAreaImageWidthPixels>5376</GPano:CroppedAreaImageWidthPixels>
+      <GPano:CroppedAreaImageHeightPixels>2688</GPano:CroppedAreaImageHeightPixels>
+      <GPano:FullPanoWidthPixels>5376</GPano:FullPanoWidthPixels>
+      <GPano:FullPanoHeightPixels>2688</GPano:FullPanoHeightPixels>
+      <GPano:CroppedAreaLeftPixels>0</GPano:CroppedAreaLeftPixels>
+      <GPano:CroppedAreaTopPixels>0</GPano:CroppedAreaTopPixels>
+      <GPano:PoseHeadingDegrees>180.0</GPano:PoseHeadingDegrees>
+      <GPano:PosePitchDegrees>-8.9</GPano:PosePitchDegrees>
+      <GPano:PoseRollDegrees>0.7</GPano:PoseRollDegrees>
+    </rdf:Description>
+  </rdf:RDF>
+</x:xmpmeta>
