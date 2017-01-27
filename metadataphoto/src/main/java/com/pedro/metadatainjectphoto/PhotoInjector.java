@@ -5,6 +5,7 @@ import android.os.Environment;
 import android.util.Log;
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Map;
@@ -31,7 +32,7 @@ public class PhotoInjector {
   }
 
   /** need set file in format jpg */
-  public void putMetadata(File fileTarget, File destinyFile) throws Exception {
+  public void putMetadata(File fileTarget, File destinyFile) throws IOException {
     File clear = removeMeta(fileTarget);
     setMetadata(clear, destinyFile);
     clearTempFiles();
@@ -46,10 +47,9 @@ public class PhotoInjector {
     return fileOutClear;
   }
 
-  private void setMetadata(File fileTarget, File destinyFile) throws Exception {
+  private void setMetadata(File fileTarget, File destinyFile) throws IOException {
     fileExif = new File(Environment.getExternalStorageDirectory(), "fileExif.jpg");
     Map<MetadataType, Metadata> metadataMap = Metadata.readMetadata(fileTarget);
-
     /**insert exif*/
     Exif exif = Utils.createExif(metadataMap);
     FileInputStream in = new FileInputStream(fileTarget);

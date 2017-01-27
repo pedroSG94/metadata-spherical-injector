@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import com.pedro.metadatainjectphoto.PhotoInjector;
 import com.pedro.metadatavideo.VideoInjector;
 import java.io.File;
+import java.io.IOException;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -24,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
     PhotoInjector photoInjector = new PhotoInjector(this);
     try {
       photoInjector.putMetadata(fileIn2, fileOut2);
-    } catch (Exception e) {
+    } catch (IOException e) {
       e.printStackTrace();
     }
   }
