@@ -33,7 +33,7 @@ Photo Library:
 PhotoInjector photoInjector = new PhotoInjector(context);
 try {
   photoInjector.putMetadata("your_file_origin_path", "yout_file_destiny_path");
-} catch (Exception e) {
+} catch (IOException e) {
   e.printStackTrace();
 }
 ```
