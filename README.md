@@ -1,4 +1,4 @@
-#Metadata Spherical Injector
+# Metadata Spherical Injector
 
 Library for inject spherical metadata in photos and videos on Android. Only MP4 and JPEG formats supported
 
@@ -10,7 +10,7 @@ Video: https://github.com/cievon/spatial-media/tree/master/spatialmedia
 
 Photo library should support all arquitecture and video library is only compiled for armeabi-v7a and x86 but you can compile it for others arquitectures.
 
-#Permission
+# Permission
 
 Only write storage permission needed:
 
@@ -18,7 +18,7 @@ Only write storage permission needed:
 <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 ```
 
-#Code Example
+# Code Example
 
 Video Library:
 
@@ -38,7 +38,7 @@ try {
 }
 ```
 
-#Compile
+# Compile
 
 If you want compile only the library in your project import it like a module and write it in your app build.gradle
 

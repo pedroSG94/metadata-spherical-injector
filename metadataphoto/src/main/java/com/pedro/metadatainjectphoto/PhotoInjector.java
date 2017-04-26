@@ -50,7 +50,7 @@ public class PhotoInjector {
   private void setMetadata(File fileTarget, File destinyFile) throws IOException {
     fileExif = new File(Environment.getExternalStorageDirectory(), "fileExif.jpg");
     Map<MetadataType, Metadata> metadataMap = Metadata.readMetadata(fileTarget);
-    /**insert exif*/
+    /*insert exif*/
     Exif exif = Utils.createExif(metadataMap);
     FileInputStream in = new FileInputStream(fileTarget);
     FileOutputStream out = new FileOutputStream(fileExif);
@@ -59,7 +59,7 @@ public class PhotoInjector {
     out.close();
     Log.i(TAG, "metadata exif injected");
 
-    /**insert xmp*/
+    /*insert xmp*/
     XMP xmp = new JpegXMP(Utils.readRawTextFile(context, R.raw.xmp_meta));
     Document xmpDoc = xmp.getXmpDocument();
 
