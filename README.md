@@ -40,13 +40,11 @@ try {
 
 # Compile
 
-If you want compile only the library in your project import it like a module and write it in your app build.gradle
-
 Video Library:
 
 ```gradle
 dependencies {
-  compile project(':metadatavideo')
+  compile 'com.github.pedroSG94.metadata-spherical-injector:metadatavideo:1.0'
 }
 ```
 Photo Library:
@@ -60,6 +58,6 @@ android {
   }
 }
 dependencies {
-  compile project(':metadataphoto')
+  compile 'com.github.pedroSG94.metadata-spherical-injector:metadataphoto:1.0'
 }
 ```
