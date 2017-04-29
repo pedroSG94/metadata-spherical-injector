@@ -43,6 +43,12 @@ try {
 Video Library:
 
 ```gradle
+allprojects {
+  repositories {
+    maven { url 'https://jitpack.io' }
+  }
+}
+
 dependencies {
   compile 'com.github.pedroSG94.metadata-spherical-injector:metadatavideo:1.0'
 }
@@ -57,6 +63,13 @@ android {
     }
   }
 }
+
+allprojects {
+  repositories {
+    maven { url 'https://jitpack.io' }
+  }
+}
+
 dependencies {
   compile 'com.github.pedroSG94.metadata-spherical-injector:metadataphoto:1.0'
 }
