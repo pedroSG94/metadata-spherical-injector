@@ -50,7 +50,7 @@ allprojects {
 }
 
 dependencies {
-  compile 'com.github.pedroSG94.metadata-spherical-injector:metadatavideo:1.0'
+  implementation 'com.github.pedroSG94.metadata-spherical-injector:metadatavideo:1.1'
 }
 ```
 Photo Library:
@@ -71,6 +71,6 @@ allprojects {
 }
 
 dependencies {
-  compile 'com.github.pedroSG94.metadata-spherical-injector:metadataphoto:1.0'
+  implementation 'com.github.pedroSG94.metadata-spherical-injector:metadataphoto:1.1'
 }
 ```

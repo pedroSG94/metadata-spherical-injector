@@ -5,7 +5,6 @@ import android.os.Environment;
 import android.util.Log;
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Map;
@@ -13,7 +12,7 @@ import org.w3c.dom.Document;
 import pixy.meta.Metadata;
 import pixy.meta.MetadataType;
 import pixy.meta.exif.Exif;
-import pixy.meta.jpeg.JPEGMeta;
+import pixy.meta.jpeg.JPGMeta;
 import pixy.meta.jpeg.JpegXMP;
 import pixy.meta.xmp.XMP;
 import pixy.string.XMLUtils;
@@ -24,7 +23,7 @@ import pixy.string.XMLUtils;
 public class PhotoInjector {
 
   private final String TAG = "PhotoInjector";
-  private Context context;
+  private final Context context;
   private File fileOutClear, fileExif;
 
   public PhotoInjector(Context context) {
@@ -67,10 +66,10 @@ public class PhotoInjector {
     FileOutputStream outXmp = new FileOutputStream(destinyFile);
 
     if (!xmp.hasExtendedXmp()) {
-      JPEGMeta.insertXMP(inXmp, outXmp, xmp);
+      JPGMeta.insertXMP(inXmp, outXmp, xmp);
     } else {
       Document extendedXmpDoc = xmp.getExtendedXmpDocument();
-      JPEGMeta.insertXMP(inXmp, outXmp,
+      JPGMeta.insertXMP(inXmp, outXmp,
           XMLUtils.serializeToString(xmpDoc.getDocumentElement(), "UTF-8"),
           XMLUtils.serializeToString(extendedXmpDoc));
     }

@@ -1,26 +1,29 @@
-/home/pedro/AndroidStudioProjects/MetadataVideoTest/metadatavideo/src/main/obj/local/x86/objs/MetaVideo/spatialmedia/mxml-2.10/mxml-file.o: \
- /home/pedro/AndroidStudioProjects/MetadataVideoTest/metadatavideo/src/main/jni/spatialmedia/mxml-2.10/mxml-file.c \
- /home/pedro/AndroidStudioProjects/MetadataVideoTest/metadatavideo/src/main/jni/spatialmedia/mxml-2.10/mxml-private.h \
- /home/pedro/AndroidStudioProjects/MetadataVideoTest/metadatavideo/src/main/jni/spatialmedia/mxml-2.10/config.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stdio.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stdlib.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/ctype.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_prolog.h \
- /home/pedro/AndroidStudioProjects/MetadataVideoTest/metadatavideo/src/main/jni/spatialmedia/mxml-2.10/mxml.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/errno.h
+./obj/local/x86/objs/MetaVideo/spatialmedia/mxml-2.10/mxml-file.o: \
+  jni/spatialmedia/mxml-2.10/mxml-file.c \
+  jni/spatialmedia/mxml-2.10/mxml-private.h \
+  jni/spatialmedia/mxml-2.10/config.h \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/stdio.h \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/__config \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/stdlib.h \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/string.h \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/ctype.h \
+  jni/spatialmedia/mxml-2.10/mxml.h \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/errno.h
 
-/home/pedro/AndroidStudioProjects/MetadataVideoTest/metadatavideo/src/main/jni/spatialmedia/mxml-2.10/mxml-private.h:
+jni/spatialmedia/mxml-2.10/mxml-private.h:
 
-/home/pedro/AndroidStudioProjects/MetadataVideoTest/metadatavideo/src/main/jni/spatialmedia/mxml-2.10/config.h:
+jni/spatialmedia/mxml-2.10/config.h:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stdio.h:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/stdio.h:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stdlib.h:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/__config:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/ctype.h:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/stdlib.h:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_prolog.h:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/string.h:
 
-/home/pedro/AndroidStudioProjects/MetadataVideoTest/metadatavideo/src/main/jni/spatialmedia/mxml-2.10/mxml.h:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/ctype.h:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/errno.h:
+jni/spatialmedia/mxml-2.10/mxml.h:
+
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/errno.h:

@@ -1,14 +1,14 @@
 package com.pedro.metadatainjectortest;
 
+import android.app.Activity;
 import android.os.Bundle;
 import android.os.Environment;
-import android.support.v7.app.AppCompatActivity;
 import com.pedro.metadatainjectphoto.PhotoInjector;
 import com.pedro.metadatavideo.VideoInjector;
 import java.io.File;
 import java.io.IOException;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity {
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {

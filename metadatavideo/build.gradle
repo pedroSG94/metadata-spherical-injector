@@ -1,16 +1,14 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.github.dcendents.android-maven'
-group = 'com.github.pedroSG94'
+apply plugin: 'maven-publish'
 
 android {
-  compileSdkVersion 25
-  buildToolsVersion '25.0.2'
+  compileSdkVersion 32
 
   defaultConfig {
     minSdkVersion 10
-    targetSdkVersion 25
-    versionCode 1
-    versionName "1.0"
+    targetSdkVersion 32
+    versionCode version_code
+    versionName version_name
     ndk {
       moduleName "libMetaVideo"
     }
@@ -24,6 +22,26 @@ android {
     release {
       minifyEnabled false
       proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+    }
+  }
+  publishing {
+    singleVariant("release")
+  }
+}
+
+afterEvaluate {
+  publishing {
+    publications {
+      // Creates a Maven publication called "release".
+      release(MavenPublication) {
+        // Applies the component for the release build variant.
+        from components.release
+
+        // You can then customize attributes of the publication as shown below.
+        groupId = "$library_group"
+        artifactId = "metadatavideo"
+        version = "$version_name"
+      }
     }
   }
 }

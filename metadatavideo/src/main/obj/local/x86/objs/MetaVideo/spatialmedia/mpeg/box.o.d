@@ -1,320 +1,226 @@
-/home/pedro/AndroidStudioProjects/MetadataVideoTest/metadatavideo/src/main/obj/local/x86/objs/MetaVideo/spatialmedia/mpeg/box.o: \
- /home/pedro/AndroidStudioProjects/MetadataVideoTest/metadatavideo/src/main/jni/spatialmedia/mpeg/box.cpp \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/string.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_cprolog.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/config/features.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_stlport_version.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/config/user_config.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/config/compat.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/config/host.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/config/_system.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/config/_android.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/config/_gcc.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/config/stl_confix.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/config/_native_headers.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_epilog.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_config_compat_post.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/iostream \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_prolog.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/debug/_debug.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_ioserr.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_iosfwd.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/char_traits.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_cstddef.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_cstring.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/using/cstring \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_construct.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_new.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/../../gabi++/include/new \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/cstddef \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/../../gabi++/include/cstddef \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/exception \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/../../gabi++/include/exception \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/../../gabi++/include/gabixx_config.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_cstdio.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stdio.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_iterator_base.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_ptrs_specialize.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/type_traits.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/type_manips.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_move_construct_fwk.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_cwchar.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_mbstate_t.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_istream.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_ios.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_ios_base.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_stdexcept_base.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_exception.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_pair.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_locale.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_cstdlib.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stdlib.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_cmath.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/math.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_threads.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/pthread.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_threads.c \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_ctime.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_string_fwd.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_string.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_alloc.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_algobase.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/climits \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_algobase.c \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_function_base.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_iterator.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_alloc.c \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_uninitialized.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_string_base.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_string_npos.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_string_operators.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_string.c \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_ctraits_fns.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_function.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_function_adaptors.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_range_errors.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_facets_fwd.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_ctype.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/c_locale.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_numpunct.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_ios.c \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_streambuf.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_streambuf.c \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_ostream.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_ostreambuf_iterator.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_ostream.c \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_num_put.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_iostream_string.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_num_put.c \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_limits.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/cfloat \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/float.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_limits.c \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_istreambuf_iterator.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_istream.c \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_num_get.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_num_get.c \
- /home/pedro/AndroidStudioProjects/MetadataVideoTest/metadatavideo/src/main/jni/spatialmedia/mpeg/constants.h \
- /home/pedro/AndroidStudioProjects/MetadataVideoTest/metadatavideo/src/main/jni/spatialmedia/mpeg/box.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/vector \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_vector.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_vector.c \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_bvector.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_relops_cont.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/fstream \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_fstream.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_codecvt.h \
- /home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_fstream.c \
- /home/pedro/AndroidStudioProjects/MetadataVideoTest/metadatavideo/src/main/jni/spatialmedia/mpeg/portable_endian.h
+./obj/local/x86/objs/MetaVideo/spatialmedia/mpeg/box.o: \
+  jni/spatialmedia/mpeg/box.cpp \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/string.h \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/__config \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/iostream \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/ios \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/iosfwd \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/wchar.h \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/__locale \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/string \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/string_view \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/__string \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/algorithm \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/initializer_list \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/cstddef \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/version \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/type_traits \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/cstring \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/utility \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/__tuple \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/cstdint \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/stdint.h \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/__debug \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/memory \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/typeinfo \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/exception \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/cstdlib \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/stdlib.h \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/new \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/limits \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/iterator \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/__functional_base \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/tuple \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/stdexcept \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/atomic \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/__threading_support \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/chrono \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/ctime \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/ratio \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/climits \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/limits.h \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/errno.h \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/functional \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/bit \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/cstdio \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/stdio.h \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/cwchar \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/cwctype \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/cctype \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/ctype.h \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/wctype.h \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/mutex \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/__mutex_base \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/system_error \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/__errc \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/cerrno \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/locale.h \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/support/android/locale_bionic.h \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/support/xlocale/__posix_l_fallback.h \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/streambuf \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/istream \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/ostream \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/locale \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/cstdarg \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/__bsd_locale_fallbacks.h \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/bitset \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/__bit_reference \
+  jni/spatialmedia/mpeg/constants.h jni/spatialmedia/mpeg/box.h \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/vector \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/__split_buffer \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/fstream \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/filesystem \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/stack \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/deque \
+  /home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/iomanip \
+  jni/spatialmedia/mpeg/portable_endian.h
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/string.h:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/string.h:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_cprolog.h:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/__config:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/config/features.h:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/iostream:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_stlport_version.h:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/ios:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/config/user_config.h:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/iosfwd:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/config/compat.h:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/wchar.h:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/config/host.h:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/__locale:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/config/_system.h:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/string:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/config/_android.h:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/string_view:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/config/_gcc.h:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/__string:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/config/stl_confix.h:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/algorithm:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/config/_native_headers.h:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/initializer_list:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_epilog.h:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/cstddef:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_config_compat_post.h:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/version:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/iostream:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/type_traits:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_prolog.h:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/cstring:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/debug/_debug.h:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/utility:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_ioserr.h:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/__tuple:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_iosfwd.h:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/cstdint:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/char_traits.h:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/stdint.h:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_cstddef.h:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/__debug:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_cstring.h:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/memory:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/using/cstring:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/typeinfo:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_construct.h:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/exception:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_new.h:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/cstdlib:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/../../gabi++/include/new:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/stdlib.h:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/cstddef:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/new:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/../../gabi++/include/cstddef:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/limits:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/exception:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/iterator:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/../../gabi++/include/exception:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/__functional_base:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/../../gabi++/include/gabixx_config.h:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/tuple:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_cstdio.h:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/stdexcept:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stdio.h:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/atomic:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_iterator_base.h:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/__threading_support:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_ptrs_specialize.h:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/chrono:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/type_traits.h:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/ctime:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/type_manips.h:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/ratio:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_move_construct_fwk.h:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/climits:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_cwchar.h:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/limits.h:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_mbstate_t.h:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/errno.h:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_istream.h:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/functional:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_ios.h:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/bit:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_ios_base.h:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/cstdio:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_stdexcept_base.h:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/stdio.h:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_exception.h:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/cwchar:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_pair.h:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/cwctype:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_locale.h:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/cctype:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_cstdlib.h:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/ctype.h:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stdlib.h:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/wctype.h:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_cmath.h:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/mutex:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/math.h:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/__mutex_base:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_threads.h:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/system_error:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/pthread.h:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/__errc:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_threads.c:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/cerrno:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_ctime.h:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/locale.h:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_string_fwd.h:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/support/android/locale_bionic.h:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_string.h:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/support/xlocale/__posix_l_fallback.h:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_alloc.h:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/streambuf:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_algobase.h:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/istream:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/climits:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/ostream:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_algobase.c:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/locale:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_function_base.h:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/cstdarg:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_iterator.h:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/__bsd_locale_fallbacks.h:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_alloc.c:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/bitset:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_uninitialized.h:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/__bit_reference:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_string_base.h:
+jni/spatialmedia/mpeg/constants.h:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_string_npos.h:
+jni/spatialmedia/mpeg/box.h:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_string_operators.h:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/vector:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_string.c:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/__split_buffer:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_ctraits_fns.h:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/fstream:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_function.h:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/filesystem:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_function_adaptors.h:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/stack:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_range_errors.h:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/deque:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_facets_fwd.h:
+/home/pedro/Android/Sdk/ndk/24.0.8215888/sources/cxx-stl/llvm-libc++/include/iomanip:
 
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_ctype.h:
-
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/c_locale.h:
-
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_numpunct.h:
-
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_ios.c:
-
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_streambuf.h:
-
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_streambuf.c:
-
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_ostream.h:
-
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_ostreambuf_iterator.h:
-
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_ostream.c:
-
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_num_put.h:
-
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_iostream_string.h:
-
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_num_put.c:
-
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_limits.h:
-
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/cfloat:
-
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/float.h:
-
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_limits.c:
-
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_istreambuf_iterator.h:
-
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_istream.c:
-
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_num_get.h:
-
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_num_get.c:
-
-/home/pedro/AndroidStudioProjects/MetadataVideoTest/metadatavideo/src/main/jni/spatialmedia/mpeg/constants.h:
-
-/home/pedro/AndroidStudioProjects/MetadataVideoTest/metadatavideo/src/main/jni/spatialmedia/mpeg/box.h:
-
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/vector:
-
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_vector.h:
-
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_vector.c:
-
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_bvector.h:
-
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_relops_cont.h:
-
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/fstream:
-
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_fstream.h:
-
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_codecvt.h:
-
-/home/pedro/android-ndk-r12b/sources/cxx-stl/stlport/stlport/stl/_fstream.c:
-
-/home/pedro/AndroidStudioProjects/MetadataVideoTest/metadatavideo/src/main/jni/spatialmedia/mpeg/portable_endian.h:
+jni/spatialmedia/mpeg/portable_endian.h:

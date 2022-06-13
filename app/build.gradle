@@ -1,15 +1,14 @@
 apply plugin: 'com.android.application'
 
 android {
-  compileSdkVersion 25
-  buildToolsVersion '25.0.2'
+  compileSdkVersion 32
+
   defaultConfig {
     applicationId "com.pedro.metadatainjectortest"
     minSdkVersion 19
-    targetSdkVersion 25
-    versionCode 1
-    versionName "1.0"
-    testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    targetSdkVersion 32
+    versionCode version_code
+    versionName version_name
   }
   buildTypes {
     release {
@@ -17,19 +16,12 @@ android {
       proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
     }
   }
-  //needed for metadataphoto
-  repositories{
-    maven{
-      url "https://oss.sonatype.org/content/repositories/snapshots"
-    }
-  }
 }
 
 dependencies {
-  compile fileTree(dir: 'libs', include: ['*.jar'])
-  compile 'com.android.support:appcompat-v7:25.3.1'
+  implementation fileTree(dir: 'libs', include: ['*.jar'])
   //compile metadatavideo library
-  compile project(':metadatavideo')
+  implementation project(':metadatavideo')
   //compile metadataphoto library
-  compile project(':metadataphoto')
+  implementation project(':metadataphoto')
 }
