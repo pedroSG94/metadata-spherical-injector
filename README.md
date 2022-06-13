@@ -1,14 +1,14 @@
 # Metadata Spherical Injector
 
+[![Release](https://jitpack.io/v/pedroSG94/metadata-spherical-injector.svg)](https://jitpack.io/#pedroSG94/metadata-spherical-injector)
+
 Library for inject spherical metadata in photos and videos on Android. Only MP4 and JPEG formats supported
 
-This library is a wrapper from two librarys.
+This library is a wrapper from two libraries:
 
 Photo: https://github.com/dragon66/pixymeta-android
 
 Video: https://github.com/cievon/spatial-media/tree/master/spatialmedia
-
-Photo library should support all arquitecture and video library is only compiled for armeabi-v7a and x86 but you can compile it for others arquitectures.
 
 # Permission
 
@@ -43,10 +43,8 @@ try {
 Video Library:
 
 ```gradle
-allprojects {
-  repositories {
-    maven { url 'https://jitpack.io' }
-  }
+repositories {
+  maven { url 'https://jitpack.io' }
 }
 
 dependencies {
@@ -56,18 +54,11 @@ dependencies {
 Photo Library:
 
 ```gradle
-android {
-  repositories{
-    maven{
-      url "https://oss.sonatype.org/content/repositories/snapshots"
-    }
+repositories {
+  maven {
+    url "https://oss.sonatype.org/content/repositories/snapshots"
   }
-}
-
-allprojects {
-  repositories {
-    maven { url 'https://jitpack.io' }
-  }
+  maven { url 'https://jitpack.io' }
 }
 
 dependencies {
