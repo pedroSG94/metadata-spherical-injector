@@ -2,20 +2,23 @@ apply plugin: 'com.android.library'
 apply plugin: 'maven-publish'
 
 android {
-  compileSdkVersion 32
+  ndkVersion "27.0.12077973"
+  namespace "com.pedro.metadatavideo"
+  compileSdkVersion 36
 
   defaultConfig {
-    minSdkVersion 10
-    targetSdkVersion 32
+    minSdkVersion 21
+    targetSdkVersion 36
     versionCode version_code
     versionName version_name
     ndk {
       moduleName "libMetaVideo"
+      abiFilters "armeabi-v7a", "arm64-v8a", "x86", "x86_64"
     }
-
-    sourceSets.main {
-      jni.srcDirs = []
-      jniLibs.srcDir "src/main/libs"
+    externalNativeBuild {
+      cmake {
+        cppFlags "-std=c++17"
+      }
     }
   }
   buildTypes {
@@ -26,6 +29,19 @@ android {
   }
   publishing {
     singleVariant("release")
+  }
+  externalNativeBuild {
+    cmake {
+      path "src/main/cpp/CMakeLists.txt"
+    }
+  }
+  splits {
+    abi {
+      enable true
+      reset()
+      include "armeabi-v7a", "arm64-v8a", "x86", "x86_64"
+      universalApk false
+    }
   }
 }
 

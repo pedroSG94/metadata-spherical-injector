@@ -48,7 +48,7 @@ repositories {
 }
 
 dependencies {
-  implementation 'com.github.pedroSG94.metadata-spherical-injector:metadatavideo:1.1'
+  implementation 'com.github.pedroSG94.metadata-spherical-injector:metadatavideo:1.2'
 }
 ```
 Photo Library:
@@ -62,6 +62,6 @@ repositories {
 }
 
 dependencies {
-  implementation 'com.github.pedroSG94.metadata-spherical-injector:metadataphoto:1.1'
+  implementation 'com.github.pedroSG94.metadata-spherical-injector:metadataphoto:1.2'
 }
 ```

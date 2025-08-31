@@ -1,12 +1,14 @@
 apply plugin: 'com.android.application'
+apply plugin: 'org.jetbrains.kotlin.android'
 
 android {
-  compileSdkVersion 32
+  namespace "com.pedro.metadatainjectortest"
+  compileSdkVersion 36
 
   defaultConfig {
     applicationId "com.pedro.metadatainjectortest"
-    minSdkVersion 19
-    targetSdkVersion 32
+    minSdkVersion 21
+    targetSdkVersion 36
     versionCode version_code
     versionName version_name
   }
@@ -15,6 +17,9 @@ android {
       minifyEnabled false
       proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
     }
+  }
+  kotlinOptions {
+    jvmTarget = '1.8'
   }
 }
 

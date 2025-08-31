@@ -3,6 +3,9 @@ package com.pedro.metadatainjectphoto;
 import android.content.Context;
 import android.os.Environment;
 import android.util.Log;
+
+import com.pedro.metadataphoto.R;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -38,7 +41,7 @@ public class PhotoInjector {
   }
 
   private File removeMeta(File fileIn) throws IOException {
-    fileOutClear = new File(Environment.getExternalStorageDirectory(), "fileClear.jpg");
+    fileOutClear = new File(context.getCacheDir(), "fileClear.jpg");
     FileInputStream is = new FileInputStream(fileIn);
     FileOutputStream os = new FileOutputStream(fileOutClear);
     Metadata.removeMetadata(is, os, MetadataType.IMAGE, MetadataType.XMP, MetadataType.JPG_JFIF);
@@ -47,7 +50,7 @@ public class PhotoInjector {
   }
 
   private void setMetadata(File fileTarget, File destinyFile) throws IOException {
-    fileExif = new File(Environment.getExternalStorageDirectory(), "fileExif.jpg");
+    fileExif = new File(context.getCacheDir(), "fileExif.jpg");
     Map<MetadataType, Metadata> metadataMap = Metadata.readMetadata(fileTarget);
     /*insert exif*/
     Exif exif = Utils.createExif(metadataMap);
