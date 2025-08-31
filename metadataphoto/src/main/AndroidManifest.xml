@@ -1,6 +1,4 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.pedro.metadatainjectphoto"
-    >
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
   <application
       android:allowBackup="true"

@@ -1,0 +1,27 @@
+{
+  "buildFiles": [
+    "/home/pedro/AndroidStudioProjects/metadata-spherical-injector/metadatavideo/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/home/pedro/Android/Sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/home/pedro/AndroidStudioProjects/metadata-spherical-injector/metadatavideo/.cxx/Debug/5t2t1q6c/x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/home/pedro/Android/Sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/home/pedro/AndroidStudioProjects/metadata-spherical-injector/metadatavideo/.cxx/Debug/5t2t1q6c/x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "MetaVideo::@6890427a1f51a3e7e1df": {
+      "artifactName": "MetaVideo",
+      "abi": "x86_64",
+      "output": "/home/pedro/AndroidStudioProjects/metadata-spherical-injector/metadatavideo/build/intermediates/cxx/Debug/5t2t1q6c/obj/x86_64/libMetaVideo.so",
+      "runtimeFiles": []
+    }
+  }
+}

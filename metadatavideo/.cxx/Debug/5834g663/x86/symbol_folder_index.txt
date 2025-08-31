@@ -1,0 +1,1 @@
+/home/pedro/AndroidStudioProjects/metadata-spherical-injector/metadatavideo/build/intermediates/cxx/Debug/5834g663/obj/x86

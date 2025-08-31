@@ -1,0 +1,22 @@
+# ninja log v5
+1	962	1756664765504693542	CMakeFiles/MetaVideo.dir/spatialmedia/mpeg/mpeg4_container.cpp.o	446f567a4128c707
+3	49	1756664764594667692	CMakeFiles/MetaVideo.dir/spatialmedia/mxml-2.10/mxml-private.c.o	fcf0b92036fc1c6a
+2	41	1756664764587667493	CMakeFiles/MetaVideo.dir/spatialmedia/mxml-2.10/mxml-get.c.o	d5d5d7f46567f529
+2	44	1756664764591446542	CMakeFiles/MetaVideo.dir/spatialmedia/mxml-2.10/mxml-index.c.o	3de1c6607031d292
+0	957	1756664765498693372	CMakeFiles/MetaVideo.dir/libMetaVideo.cpp.o	54ba9912bdf66644
+1	959	1756664765501693457	CMakeFiles/MetaVideo.dir/spatialmedia/mpeg/box.cpp.o	90fee082253c0e5e
+4	42	1756664764587667493	CMakeFiles/MetaVideo.dir/spatialmedia/mxml-2.10/mxml-set.c.o	b1f412cb5ef2f573
+2	65	1756664764610668147	CMakeFiles/MetaVideo.dir/spatialmedia/mxml-2.10/mxml-node.c.o	3185339d7a5d91b4
+0	687	1756664765229685735	CMakeFiles/MetaVideo.dir/spatialmedia/parser.cpp.o	9916d6a8c8f69ed2
+1	57	1756664764599667834	CMakeFiles/MetaVideo.dir/spatialmedia/mxml-2.10/mxml-attr.c.o	5bc66925521b2c24
+1	57	1756664764602667919	CMakeFiles/MetaVideo.dir/spatialmedia/mxml-2.10/mxml-entity.c.o	f8e776a052a45c26
+5	42	1756664764587667493	CMakeFiles/MetaVideo.dir/spatialmedia/mxml-2.10/mxml-string.c.o	931b46d173ef709a
+2	44	1756664764589667550	CMakeFiles/MetaVideo.dir/spatialmedia/mxml-2.10/mxml-search.c.o	9cfe61f1e8dd7e93
+1	1045	1756664765581695728	CMakeFiles/MetaVideo.dir/spatialmedia/mpeg/container.cpp.o	9aee01482792a826
+1	118	1756664764664669682	CMakeFiles/MetaVideo.dir/spatialmedia/mxml-2.10/mxml-file.c.o	7b200c49d6768495
+0	1383	1756664765922705410	CMakeFiles/MetaVideo.dir/spatialmedia/metadata_utils.cpp.o	a90015acc5838aca
+0	1164	1756664765705699249	CMakeFiles/MetaVideo.dir/spatialmedia/mpeg/sa3d.cpp.o	e18f5d792ea5468f
+1383	1420	1756664765965706630	/home/pedro/AndroidStudioProjects/metadata-spherical-injector/metadatavideo/build/intermediates/cxx/Debug/5t2t1q6c/obj/x86_64/libMetaVideo.so	dfd29ffca2f7beea
+4	32	1756666115612831651	/home/pedro/AndroidStudioProjects/metadata-spherical-injector/metadatavideo/build/intermediates/cxx/Debug/5t2t1q6c/obj/x86_64/libMetaVideo.so	551a70fdf809abfe
+4	757	1756671234724047609	CMakeFiles/MetaVideo.dir/libMetaVideo.cpp.o	54ba9912bdf66644
+757	870	1756671234840048368	/home/pedro/AndroidStudioProjects/metadata-spherical-injector/metadatavideo/build/intermediates/cxx/Debug/5t2t1q6c/obj/x86_64/libMetaVideo.so	551a70fdf809abfe
