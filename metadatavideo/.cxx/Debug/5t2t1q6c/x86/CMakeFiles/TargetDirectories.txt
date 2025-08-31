@@ -1,3 +1,0 @@
-/home/pedro/AndroidStudioProjects/metadata-spherical-injector/metadatavideo/.cxx/Debug/5t2t1q6c/x86/CMakeFiles/MetaVideo.dir
-/home/pedro/AndroidStudioProjects/metadata-spherical-injector/metadatavideo/.cxx/Debug/5t2t1q6c/x86/CMakeFiles/edit_cache.dir
-/home/pedro/AndroidStudioProjects/metadata-spherical-injector/metadatavideo/.cxx/Debug/5t2t1q6c/x86/CMakeFiles/rebuild_cache.dir
